@@ -88,10 +88,7 @@ st.divider()
 
 st.sidebar.title("⚙ Settings")
 
-api_key = st.sidebar.text_input(
-    "Enter Groq API Key",
-    type="password"
-)
+api_key = st.secrets["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"]
 
 target_role = st.sidebar.selectbox(
     "Select Target Role",
